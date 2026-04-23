@@ -14,5 +14,8 @@ echo "Quantos parâmetros: $#"
 # Ultimo comando
 echo "Saída do ultimo comando: $?"
 
-# Ver o PID
+# Ver o PID processo em execução
 echo "PID $$"
+
+# Busca o nome do script
+echo "Nome do script: $0"
