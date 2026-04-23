@@ -13,3 +13,6 @@ echo "Quantos parâmetros: $#"
 
 # Ultimo comando
 echo "Saída do ultimo comando: $?"
+
+# Ver o PID
+echo "PID $$"
