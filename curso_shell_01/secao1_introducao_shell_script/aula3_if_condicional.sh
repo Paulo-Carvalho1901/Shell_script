@@ -22,5 +22,6 @@ then
   echo "São iguais."
 fi
 
+# Forma simplificada
 [ "$VAR" = "$VAR2" ] && echo "São iguais forma simplificada."
 [ "$VAR" = "$VAR2" ] || echo "São iguais forma simplificada."
