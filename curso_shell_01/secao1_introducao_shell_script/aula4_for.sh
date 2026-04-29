@@ -9,3 +9,9 @@ echo "====for 2 (seq)"
 for i in $(seq 10); do
   echo $i
 done
+
+echo "====for 3"
+for (( indice =1; indice < 21; indice++ ))
+do
+  echo "Valor: $indice"
+done
